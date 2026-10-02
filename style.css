@@ -1,0 +1,88 @@
+body {
+    font-family: Arial;
+     background-color: light grey;
+     padding: 30px;
+}
+h1 {
+    text-align: center;
+     background-color: blue;
+     color: white;
+      padding: 25px;
+}
+.search-section {
+    display: flex;
+     gap: 15px;
+     margin-bottom: 30px;
+}
+#searchinput {
+    flex: 1;
+     padding: 12px;
+     font-size: 16px;
+     border: 1px;
+     border-radius: 6px;
+}
+#searchinput::placeholder {
+    font-weight: 600;
+}
+#searchinput:focus {
+    border-color: blue;
+}
+
+#categoryFilter {
+     width: 200px;
+      padding: 12px;
+      font-size: 16px;
+       border: 1px ;
+        border-radius: 6px;
+         background-color: white;
+          cursor: pointer;
+}
+.add-section {
+    max-width: 700px;
+     margin: auto;
+      background-color: white;
+      padding: 30px;
+       border-radius: 10px;
+}
+.add-section h2 {
+    margin-bottom: 25px;
+
+    color: blue;
+}
+#resourceForm {
+    display: grid;
+     flex: column;
+      gap: 15px;
+}
+
+
+#resourceForm label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+#resourceForm input,
+#resourceForm select {
+    width: 100%;
+     padding: 12px;
+     font-size: 15px;
+      border: 1px;
+      border-radius: 6px;
+       outline: none;
+}
+#resourceForm input:focus,
+#resourceForm select:focus {
+    border-color: blue;
+}
+#resourceForm button {
+    margin-top: 15px;
+     padding: 12px;
+     background-color: green;
+      color: white;
+       border: none;
+        border-radius: 6px;
+         font-size: 16px;
+          cursor: pointer;
+}
+#resourceForm button:hover {
+    background-color: #15803d;
+}

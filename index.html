@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Resource Hub</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Developer Resource hub</h1>
+    <section class="search-section">
+    <input type="text"
+    id="searchinput"
+    placeholder="Search Resources...">
+     <select id="categoryFilter">
+
+        <option value="All"> All Categories</option>
+
+            <option value="Web Dev"> Web Dev </option>
+
+            <option value="App Dev">App Dev</option>
+
+            <option value="AI/ML"> AI/ML </option>
+
+            <option value="Tools">Tools </option>
+            
+        </select>
+</section>
+<section class="add-section">
+    <h2><b>+Add New Resource</b></h2>
+    <form id="resourceForm">
+        <label>Resource Title</label>
+        <input
+                type="text"
+                id="title"
+                placeholder="Enter resource title"
+                required
+            >
+             <label>Description</label>
+              <input
+                type="text"
+                id="description"
+                placeholder="Enter description"
+                required
+            >
+            <label>Category</label>
+
+            <select id="category" required>
+
+                <option value="">Select Category </option>
+
+                <option value="Web Dev"> Web Dev</option>
+
+                <option value="App Dev">App Dev </option>
+
+                <option value="AI/ML"> AI/ML</option>
+
+                <option value="Tools"> Tools</option>
+
+            </select>
+             <label>Website Link</label>
+
+            <input
+                type="url"
+                id="link"
+                placeholder="https://example.com"
+                required
+            >
+            <button type="submit">Add Resource
+            </button>
+         </form>
+        </section>
+         <script src="script.js"></script>
+</body>
+</html>
