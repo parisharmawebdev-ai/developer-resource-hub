@@ -4,15 +4,12 @@ GDG on Campus AITR Website
 # Issue-1
 
 • On the front page, find the logo of Google Developer Groups on Campus – AITR Indore.
-• In the logo, there are two circles, here one small circle and one bigger circle,as shown in the image.
-![issue1](screenshot\issue1.png)
+• In the logo, there are two circles, here one small circle and one bigger circle
 
 # Issue-2
 
 • In the Workshop section, find the workshop that has already been completed.
 • The workshop is over, there is showing “6 seats left” and allowing users to view it as an ongoing workshop.
-• As shown in the image
-![issue2](screenshot\issue2.png)
 
 ## There is no specific issues find on phone or deskstop
 • This is the major issue I found.
