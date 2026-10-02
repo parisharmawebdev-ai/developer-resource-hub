@@ -26,6 +26,10 @@ A simple web application that allows users to search and explore useful develope
 
 https://parisharmawebdev-ai.github.io/developer-resource-hub/
 
+##GitHub Repository 
+
+https://github.com/parisharmawebdev-ai/developer-resource-hub
+
 ## Project Structure
 
 ```text
